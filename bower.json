@@ -1,0 +1,25 @@
+{
+    "name": "purescript-options-extra",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PureFunctor/purescript-options-extra.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-contravariant": "^v5.0.0",
+        "purescript-options": "^v6.0.0",
+        "purescript-prelude": "^v5.0.0",
+        "purescript-tuples": "^v6.0.0"
+    },
+    "devDependencies": {
+        "purescript-psci-support": "^v5.0.0"
+    }
+}
