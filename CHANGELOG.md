@@ -8,9 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Breaking changes:
 
 New features:
-* Created the `Data.Options.UntaggedUnion` module for working with `untagged-union`.
 
 Bugfixes:
+
+Other improvements:
+
+## [0.2.0](https://github.com/PureFunctor/purescript-options-extra/releases/tag/v0.1.0) - 2021-05-02
+New features:
+* Created the `Data.Options.UntaggedUnion` module for working with `untagged-union`.
 
 Other improvements:
 * Minor rewording of documentation in `Data.Options.Nested` for consistency.
