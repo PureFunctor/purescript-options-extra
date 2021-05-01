@@ -4,7 +4,6 @@
   , "options"
   , "prelude"
   , "tuples"
-  , "type-equality"
   , "untagged-union"
   ]
 , packages = ./packages.dhall

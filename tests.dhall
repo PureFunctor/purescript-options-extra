@@ -8,6 +8,7 @@ in      conf
               , "foreign-object"
               , "maybe"
               , "spec"
+              , "type-equality"
               , "unsafe-coerce"
               ]
         , sources = conf.sources # [ "test/**/*.purs" ]
