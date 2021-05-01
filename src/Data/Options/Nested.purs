@@ -17,11 +17,11 @@ type OptionN :: forall k l. k -> l -> Type
 type OptionN o i = Option o (Options i)
 
 
--- | Creates an `Option` that takes `Options` for its value.
+-- | Creates an option that takes `Options i`.
 optN :: forall o i. String -> OptionN o i
 optN = Op <<< optionsToOptions
 
 
--- | Turns `Options i` into `Foreign`, yielding `Options o`.
+-- | Builds an `Options o` from an `Options i`.
 optionsToOptions :: forall i o. String -> Options i -> Options o
 optionsToOptions k v = Options [Tuple k (options v)]
