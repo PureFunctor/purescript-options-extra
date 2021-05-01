@@ -12,11 +12,11 @@ import Type.Proxy (Proxy)
 import Untagged.Union (class InOneOf, OneOf, asOneOf)
 
 
--- | Creates an `Option o` that takes any type `v` that can be
--- | coerced using `InOneOf`.
+-- | Creates an option over a type `v` that can be coerced
+-- | using `InOneOf`.
 -- |
--- | The `h` and `t` type parameters must be provided through
--- | a proxied `OneOf` type.
+-- | The `h` and `t` type parameters are provided through a
+-- | proxied `OneOf` type.
 optU
   :: forall o v h t
    . InOneOf v h t
