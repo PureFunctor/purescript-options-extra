@@ -12,3 +12,9 @@ New features:
 Bugfixes:
 
 Other improvements:
+
+## [0.1.0](https://github.com/PureFunctor/purescript-options-extra/releases/tag/v0.1.0) - 2021-05-01
+Initial semantic versioning release.
+
+New features:
+* Created the `Data.Options.Nested` module for working with nested `Options`.
