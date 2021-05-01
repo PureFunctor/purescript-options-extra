@@ -17,9 +17,7 @@
         "purescript-contravariant": "^v5.0.0",
         "purescript-options": "^v6.0.0",
         "purescript-prelude": "^v5.0.0",
-        "purescript-tuples": "^v6.0.0"
-    },
-    "devDependencies": {
-        "purescript-psci-support": "^v5.0.0"
+        "purescript-tuples": "^v6.0.0",
+        "purescript-untagged-union": "https://github.com/jvliwanag/purescript-untagged-union.git#v0.3.0"
     }
 }

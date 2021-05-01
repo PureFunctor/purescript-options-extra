@@ -3,9 +3,7 @@
   [ "contravariant"
   , "options"
   , "prelude"
-  , "psci-support"
   , "tuples"
-  , "type-equality"
   , "untagged-union"
   ]
 , packages = ./packages.dhall
